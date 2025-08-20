@@ -7,3 +7,39 @@ data/raw/
 data/processed/
 results/
 envs/*.lock
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Conda / venv
+env/
+venv/
+.venv/
+*.conda
+*.egg-info/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data files
+*.fastq
+*.fq
+*.bam
+*.sam
+*.vcf
+*.gz
+*.zip
+*.tar
+*.tar.gz
+
+# IDE configs
+.vscode/
+.idea/
